@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import HomeAboutCard from "./HomeAboutCard";
 import myPic from "../../Assets/myImage.png";
+import HomeSkills from "./HomeSkills";
 
 function HomeSection2() {
   return (
@@ -17,7 +18,12 @@ function HomeSection2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-skills ">
-            <h1>Tools & Technologies</h1>
+            <h1 className="heading-name-skills">Tools & Technologies</h1>
+            <p className="home-about-body">
+              I'm fimiliar with couple of Languages, Tools & Technologies. I
+              mainly works in following Technologies
+            </p>
+            <HomeSkills />
           </Col>
         </Row>
       </Container>
