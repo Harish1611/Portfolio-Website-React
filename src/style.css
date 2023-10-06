@@ -485,6 +485,14 @@ button:focus {
   font-family: "Pacifico", cursive;
   padding-bottom: 15px;
 }
+@media (max-width: 767px) {
+  .footer-heading {
+    padding-top: 60px;
+    color: #b36ff3 !important;
+    font-family: "Pacifico", cursive;
+    padding-bottom: 15px;
+  }
+}
 .footer-logo {
   text-align: center !important;
   height: 80px !important;
@@ -494,6 +502,21 @@ button:focus {
 .footer-nav-items {
   color: white;
   cursor: pointer;
+  text-decoration: none;
+
+  font-size: 18px !important;
+}
+.break {
+  padding-bottom: 20px !important;
+}
+.footer-nav-items:hover {
+  color: rgb(176, 176, 176) !important;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px !important;
+}
+.footer-bottom-col {
+  padding-top: 40px !important;
 }
 @media (max-width: 767px) {
   .footer-copywright {
@@ -503,6 +526,10 @@ button:focus {
   .footer-body {
     text-align: center !important;
   }
+
+  .footer-bottom-col {
+    padding-top: 40px !important;
+  }
 }
 
 .footer h3 {
@@ -511,7 +538,17 @@ button:focus {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
 }
+.footer-bottom {
+  font-size: 1em;
+  color: rgb(176, 176, 176) !important;
+}
 
+@media (max-width: 767px) {
+  .footer-bottom {
+    font-size: 0.8em;
+    color: rgb(176, 176, 176) !important;
+  }
+}
 .footer-icons {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;

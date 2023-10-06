@@ -1,18 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import HarishLogo from "../Assets/HarishLogo.png";
-
-import About from "./About/About";
-import Home from "./Home/Home";
-import Projects from "./Projects/Projects";
-import Resume from "./Resume/ResumeNew";
-import Contact from "./Contact/Contact";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Navigate,
-} from "react-router-dom";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -37,12 +25,25 @@ function Footer() {
 
         <Col md="4" className="footer-copywright">
           <h2 className="footer-heading">Quick Links</h2>
-          <p className="footer-nav-items"> Home</p>
-          <p className="footer-nav-items"> About</p>
-
-          <p className="footer-nav-items"> Projects</p>
-          <p className="footer-nav-items"> Resume</p>
-          <p className="footer-nav-items"> Contact</p>
+          <Link className="footer-nav-items" to="/">
+            Home
+          </Link>
+          <div className="break"> </div>
+          <Link className="footer-nav-items" to="/about">
+            About
+          </Link>
+          <div className="break"> </div>
+          <Link className="footer-nav-items" to="/project">
+            Projects
+          </Link>
+          <div className="break"> </div>
+          <Link className="footer-nav-items" to="/resume">
+            Resume
+          </Link>
+          <div className="break"> </div>
+          <Link className="footer-nav-items" to="/contact">
+            Contact
+          </Link>
         </Col>
         <Col md="4" className="footer-copywright">
           <h2 className="footer-heading">Reachout To Me</h2>
@@ -59,7 +60,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/harish-naidu-bonam/"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
@@ -69,7 +70,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/harish-naidu-bonam/"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
@@ -79,7 +80,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/harish-naidu-bonam/"
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour home-social-icons"
@@ -90,14 +91,16 @@ function Footer() {
           </ul>
         </Col>
       </Row>
-      <Row>
+      <Row className="footer-bottom-col">
         <hr></hr>
-        <Col md="6" className="footer-copywright">
-          <h3>Copyright © {year} HarishOffical</h3>
+        <Col md="6">
+          <h4 className="footer-bottom">Copyright © {year} HarishOffical</h4>
         </Col>
 
-        <Col md="6" className="footer-copywright">
-          <h3>Designed and Developed by Harish N Bonam</h3>
+        <Col md="6">
+          <h4 className="footer-bottom">
+            Designed and Developed by Harish N Bonam
+          </h4>
         </Col>
       </Row>
     </Container>
