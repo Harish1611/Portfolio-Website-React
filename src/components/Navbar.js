@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import HarishLogo from "../Assets/HarishLogo.png";
+import MobileLogo from "../Assets/mobileLogo.png";
 import { Link } from "react-router-dom";
 
 function NavBar() {
@@ -29,6 +30,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           <img src={HarishLogo} className="img-fluid logo" alt="brand" />
+          <img src={MobileLogo} className="img-fluid mobile-logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

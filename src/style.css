@@ -139,6 +139,9 @@ button:focus {
   height: 2.8em !important;
   /* width: 2.5em !important; */
 }
+.mobile-logo {
+  display: none;
+}
 @media (max-width: 767px) {
   .navbar {
     padding: 1rem 2rem !important;
@@ -204,6 +207,12 @@ button:focus {
 @media (max-width: 767px) {
   .logo {
     display: none;
+  }
+
+  .mobile-logo {
+    display: block;
+    width: 40px;
+    height: auto;
   }
 }
 /* --------- */
