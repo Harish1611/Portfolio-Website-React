@@ -830,7 +830,37 @@ button:focus {
   background: #fff;
   border: 2px solid #8a49a8;
 }
+.resume-message {
+  padding: 80px 360px !important;
+}
 
+.resume-message-greet {
+  text-align: left !important;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 1.1rem !important;
+}
+
+.resume-message-dec {
+  text-align: right !important;
+}
+
+@media (max-width: 767px) {
+  .resume-message {
+    padding: 80px 10px !important;
+  }
+
+  .resume-message-greet {
+    text-align: left !important;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 1.1rem !important;
+  }
+
+  .resume-message-dec {
+    text-align: right !important;
+  }
+}
 .like-item {
   padding-top: 10px !important;
   font-size: 1.1em !important;

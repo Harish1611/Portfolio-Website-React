@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import elementBall from "../../Assets/element.png";
 import laptopImg from "../../Assets/about.png";
-
 import HomeSection2 from "./HomeSection2";
 
 function Home() {
