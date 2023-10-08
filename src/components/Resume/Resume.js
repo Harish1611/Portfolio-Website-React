@@ -7,6 +7,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import "../../style.css";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import HeadingDivider from "../UI-Elements/HeadingDivider";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 const updatedResumeGitLink =
   "https://github.com/Harish1611/Resume/blob/main/Harish_Naidu_Bonam_Resume.pdf";
@@ -20,7 +21,9 @@ const Resume = () => {
 
   return (
     <div>
-      <Container fluid className="resume-section">
+      <Container fluid className="section-style">
+        <h2 className="heading-mystory"> My Resume </h2>
+        <HeadingDivider color={"white"} />
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Col xs={12}>
             <div className="resume-message">

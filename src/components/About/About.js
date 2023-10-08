@@ -4,7 +4,7 @@ import AboutMyStory from "./AboutMyStory";
 
 const About = () => {
   return (
-    <Container fluid className="about-section">
+    <Container fluid className="section-style">
       <AboutMyStory />
     </Container>
   );

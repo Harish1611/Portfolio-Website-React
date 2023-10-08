@@ -613,7 +613,6 @@ button:focus {
 .heading-mystory {
   font-size: 2.2em !important;
   color: #c770f0;
-  padding-top: 20px;
   font-family: "Pacifico", cursive;
   padding-left: 0px !important;
 }
@@ -704,7 +703,7 @@ button:focus {
 
 .about-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 40px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
@@ -727,6 +726,14 @@ button:focus {
 }
 .mystory-div {
   padding-top: 15px;
+}
+@media (max-width: 767px) {
+  .mystory {
+    padding-top: 20px !important;
+    padding-left: 10px !important;
+    font-size: 1rem !important;
+    text-align: center !important;
+  }
 }
 .tech-icons {
   font-size: 4.5em !important;
@@ -782,9 +789,9 @@ button:focus {
 /* Resume */
 /* --------- */
 
-.resume-section {
+.section-style {
   position: relative !important;
-  padding-top: 110px !important;
+  padding-top: 160px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
@@ -1116,4 +1123,18 @@ buttons {
   opacity: 1;
   margin: 0 auto;
   border: none;
+}
+
+@media (max-width: 767px) {
+  .heading-div-parent {
+    text-align: center;
+    padding-top: 10px !important;
+  }
+  .heading-divider {
+    width: 30%;
+    height: 2px !important;
+    opacity: 1;
+    margin: 0 auto;
+    border: none;
+  }
 }

@@ -2,7 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import HeadingDivider from "../UI-Elements/HeadingDivider";
 const AboutMyStory = () => {
   return (
-    <Container fluid className="about-story">
+    <Container fluid>
       <h2 className="heading-mystory"> My Story </h2>
       <HeadingDivider color={"white"} />
       <Row style={{ justifyContent: "left", position: "relative" }}>
