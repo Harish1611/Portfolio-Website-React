@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import HeadingDivider from "../UI-Elements/HeadingDivider";
+import laptopAsset from "../../Assets/laptop-asset.png";
 const AboutMyStory = () => {
   return (
     <Container fluid>
@@ -36,7 +37,7 @@ const AboutMyStory = () => {
           </p>
         </Col>
         <Col md={4} className="mystory-image">
-          <p style={{ textAlign: "left" }}>Image Here</p>
+          <img src={laptopAsset} alt="about" className="img-about" />
         </Col>
       </Row>
     </Container>
