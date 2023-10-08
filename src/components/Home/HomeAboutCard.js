@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
+import HeadingDivider from "../UI-Elements/HeadingDivider";
 
 const HomeAboutCard = (props) => {
   return (
@@ -16,6 +17,8 @@ const HomeAboutCard = (props) => {
         </div>
         <Card.Body>
           <Card.Title className="about-home-title">{props.title}</Card.Title>
+          <HeadingDivider color={"white"} />
+
           <Card.Text
             style={{ textAlign: "justify" }}
             className="about-home-desc"

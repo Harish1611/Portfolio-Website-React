@@ -609,6 +609,23 @@ button:focus {
 .about-home-desc {
   padding: 20px !important;
 }
+
+.heading-mystory {
+  font-size: 2.2em !important;
+  color: #c770f0;
+  padding-top: 20px;
+  font-family: "Pacifico", cursive;
+  padding-left: 0px !important;
+}
+
+@media (max-width: 767px) {
+  .heading-mystory {
+    font-size: 2.2em !important;
+    font-family: "Pacifico", cursive;
+    color: #c770f0;
+    padding-left: 0px !important;
+  }
+}
 .blog-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -692,7 +709,25 @@ button:focus {
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
-
+.about-story {
+  position: relative !important;
+  padding-top: 100px !important;
+  padding-bottom: 30px !important;
+  color: white !important;
+}
+.mystory {
+  padding-top: 50px !important;
+  padding-left: 80px !important;
+  font-size: 1.2rem !important;
+  text-align: left !important;
+}
+.mystory-image {
+  padding-top: 20px !important;
+  padding-left: 80px !important;
+}
+.mystory-div {
+  padding-top: 15px;
+}
 .tech-icons {
   font-size: 4.5em !important;
   margin: 15px !important;
@@ -1070,4 +1105,15 @@ buttons {
   background-image: url(./Assets/image.png);
   background-position: 50% 50%;
   background-size: cover;
+}
+.heading-div-parent {
+  text-align: center;
+  padding-top: 10px !important;
+}
+.heading-divider {
+  width: 15%;
+  height: 2px !important;
+  opacity: 1;
+  margin: 0 auto;
+  border: none;
 }

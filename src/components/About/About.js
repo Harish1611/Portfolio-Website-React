@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import AboutMyStory from "./AboutMyStory";
 
 const About = () => {
   return (
     <Container fluid className="about-section">
-      <h1> About Page</h1>
+      <AboutMyStory />
     </Container>
   );
 };

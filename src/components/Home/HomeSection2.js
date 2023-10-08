@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import HomeAboutCard from "./HomeAboutCard";
 import myPic from "../../Assets/myImage.png";
 import HomeSkills from "./HomeSkills";
+import HeadingDivider from "../UI-Elements/HeadingDivider";
 
 const HomeSection2 = () => {
   return (
@@ -19,6 +20,8 @@ const HomeSection2 = () => {
         <Row>
           <Col md={12} className="home-about-skills ">
             <h1 className="heading-name-skills">Tools & Technologies</h1>
+            <HeadingDivider color={"#c770f0"} />
+
             <p className="home-about-body">
               I'm fimiliar with couple of Languages, Tools & Technologies. I
               mainly works in following Technologies
