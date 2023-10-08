@@ -9,7 +9,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-function Footer() {
+const Footer = () => {
   let date = new Date();
   let year = date.getFullYear();
   return (
@@ -105,6 +105,6 @@ function Footer() {
       </Row>
     </Container>
   );
-}
+};
 
 export default Footer;

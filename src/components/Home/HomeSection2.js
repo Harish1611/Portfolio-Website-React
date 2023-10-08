@@ -4,7 +4,7 @@ import HomeAboutCard from "./HomeAboutCard";
 import myPic from "../../Assets/myImage.png";
 import HomeSkills from "./HomeSkills";
 
-function HomeSection2() {
+const HomeSection2 = () => {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -29,5 +29,5 @@ function HomeSection2() {
       </Container>
     </Container>
   );
-}
+};
 export default HomeSection2;

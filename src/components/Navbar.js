@@ -6,7 +6,7 @@ import HarishLogo from "../Assets/HarishLogo.png";
 import MobileLogo from "../Assets/mobileLogo.png";
 import { Link } from "react-router-dom";
 
-function NavBar() {
+const NavBar = () => {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
@@ -94,6 +94,6 @@ function NavBar() {
       </Container>
     </Navbar>
   );
-}
+};
 
 export default NavBar;

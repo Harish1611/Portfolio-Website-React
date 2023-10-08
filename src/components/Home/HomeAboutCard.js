@@ -2,7 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 
-function HomeAboutCard(props) {
+const HomeAboutCard = (props) => {
   return (
     <row>
       <Card className="project-card-view">
@@ -29,5 +29,5 @@ function HomeAboutCard(props) {
       </Card>
     </row>
   );
-}
+};
 export default HomeAboutCard;

@@ -10,7 +10,8 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 const updatedResumeGitLink =
   "https://github.com/Harish1611/Resume/blob/main/Harish_Naidu_Bonam_Resume.pdf";
-function Resume() {
+
+const Resume = () => {
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
@@ -70,6 +71,6 @@ function Resume() {
       </Container>
     </div>
   );
-}
+};
 
 export default Resume;

@@ -8,7 +8,7 @@ import {
   DiJava,
 } from "react-icons/di";
 
-function HomeSkills() {
+const HomeSkills = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
@@ -31,6 +31,6 @@ function HomeSkills() {
       </Col>
     </Row>
   );
-}
+};
 
 export default HomeSkills;

@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import laptopImg from "../../Assets/about.png";
 import HomeSection2 from "./HomeSection2";
 
-function Home() {
+const Home = () => {
   return (
     <section>
       <Container fluid className="home-section" id="home">
@@ -27,6 +27,6 @@ function Home() {
       <HomeSection2 />
     </section>
   );
-}
+};
 
 export default Home;
