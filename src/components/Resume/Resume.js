@@ -28,15 +28,15 @@ const Resume = () => {
               Thank you for visiting my profile. If you are impressed with my
               profile and skills, please let me know. You can download my
               current Resume/CV below. If it is not updated, you can always find
-              my updated resume in my Git Resume Repo. Click on the "Updated
-              Resume" button to access my most recent resume.
+              my updated resume in my Git Resume Repo. Click on the "Updated CV"
+              button to access my most recent resume.
               <div className="resume-message-dec">Sincerely,</div>
               <div className="resume-message-dec">Harish Naidu Bonam</div>
             </div>
           </Col>
         </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Col md={2} sm={2}>
+          <Col md={2} sm={2} className="resume-button">
             {" "}
             <Button
               variant="primary"
@@ -49,7 +49,7 @@ const Resume = () => {
               &nbsp;&nbsp;Download CV&nbsp;
             </Button>
           </Col>
-          <Col md={2} sm={2}>
+          <Col md={2} sm={2} className="resume-button">
             {" "}
             <Button
               variant="primary"

@@ -860,6 +860,9 @@ button:focus {
   .resume-message-dec {
     text-align: right !important;
   }
+  .resume-button {
+    padding-top: 20px !important;
+  }
 }
 .like-item {
   padding-top: 10px !important;
