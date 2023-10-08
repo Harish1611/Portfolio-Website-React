@@ -14,13 +14,13 @@ const HomeSection2 = () => {
           <HomeAboutCard
             imgPath={myPic}
             title="Meet the Creator"
-            description="I am Harish Naidu Bonam, an Engineering graduate in Electronics and Communications. I can design and develop Websites from scratch. I'm fimiliar with HTML, CSS, JS, ReactJS,NodeJS,ExpressJS, BootStrap, MySQL, Java. I can design a website for you as a freelance project, contact me if needed."
+            description="I'm Harish Naidu Bonam, hailing from the charming city of Vijayawada in Andhra Pradesh, India. Armed with a B.Tech degree in Electronics and Communications Engineering.Though my academic roots lie in electronics, I'm more inclined towards Software. I'm fimiliar with HTML, CSS, JS, ReactJS,NodeJS,ExpressJS, BootStrap, MySQL, Java. I can design a website for you as a freelance project, contact me if needed."
           />
         </Row>
         <Row>
           <Col md={12} className="home-about-skills ">
             <h1 className="heading-name-skills">Tools & Technologies</h1>
-            <HeadingDivider color={"#c770f0"} />
+            <HeadingDivider color={"purple"} />
 
             <p className="home-about-body">
               I'm fimiliar with couple of Languages, Tools & Technologies. I
