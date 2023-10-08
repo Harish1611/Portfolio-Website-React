@@ -1190,3 +1190,26 @@ buttons {
     hsla(0, 0%, 100%, 0)
   );
 }
+
+.contact-card-view {
+  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  color: white !important;
+  background-color: transparent !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+  border-color: hsla(0, 0%, 100%, 0.17) rgba(250, 106, 106, 0.08) #202020
+    hsla(0, 0%, 84.8%, 0.08);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-image: linear-gradient(
+    180deg,
+    #001038,
+    rgba(0, 16, 56, 0.12) 50%,
+    hsla(0, 0%, 100%, 0)
+  );
+  padding: 40px 60px !important;
+  text-align: center;
+}
