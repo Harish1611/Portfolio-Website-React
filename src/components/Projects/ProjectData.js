@@ -50,8 +50,8 @@ export const ProjectData = [
     title: "Drum Game",
     description: "",
     img: placeHolder,
-    gitLink: "https://github.com/Harish1611/Blossom",
-    demoLink: "https://harish1611.github.io/Blossom/",
+    gitLink: "https://github.com/Harish1611/Drum-Game",
+    demoLink: "https://harish1611.github.io/Drum-Game/",
   },
   {
     title: "Dice Roll Game",
