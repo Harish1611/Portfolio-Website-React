@@ -1,4 +1,5 @@
 import React from "react";
+import { ProjectData } from "./ProjectData";
 import { Container, Row, Col } from "react-bootstrap";
 import HeadingDivider from "../UI-Elements/HeadingDivider";
 import ProjectCard from "./ProjectCard";
@@ -14,9 +15,9 @@ const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={placeHolder}
+              imgPath={ProjectData[0].img}
               isBlog={false}
-              title="Big Sale - eCommerce Website"
+              title={ProjectData[1].title}
               description=""
               ghLink=""
               demoLink=""
@@ -25,7 +26,7 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={placeHolder}
+              imgPath={ProjectData[1].img}
               isBlog={false}
               title="My Protfolio - React"
               description=""
