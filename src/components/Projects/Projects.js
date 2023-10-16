@@ -13,71 +13,18 @@ const Projects = () => {
 
       <Container>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ProjectData[0].img}
-              isBlog={false}
-              title={ProjectData[1].title}
-              description=""
-              ghLink=""
-              demoLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ProjectData[1].img}
-              isBlog={false}
-              title="My Protfolio - React"
-              description=""
-              ghLink=""
-              demoLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={placeHolder}
-              isBlog={false}
-              title="Drum Game"
-              description=""
-              ghLink=""
-              demoLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={placeHolder}
-              isBlog={false}
-              title="IoT Disinfection Booth"
-              description=""
-              ghLink=""
-              demoLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={placeHolder}
-              isBlog={false}
-              title="RSA & LSB Encryption App"
-              description=""
-              ghLink=""
-              demoLink=""
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={placeHolder}
-              isBlog={false}
-              title="Place Holder"
-              description=""
-              ghLink=""
-              demoLink=""
-            />
-          </Col>
+          {ProjectData.map((data) => (
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={data.img}
+                isBlog={false}
+                title={data.title}
+                description={data.description}
+                ghLink={data.gitLink}
+                demoLink={data.demoLink}
+              />
+            </Col>
+          ))}
         </Row>
       </Container>
     </Container>
