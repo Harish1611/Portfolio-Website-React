@@ -1,4 +1,10 @@
 import portfolio from "../../Assets/portfolio.png";
+import expenseTracker from "../../Assets/expense-tracker.png";
+import blossom from "../../Assets/blossom.png";
+import todoApp from "../../Assets/todo-app.png";
+import PersonalWebUI from "../../Assets/personal-web.png";
+import drumGame from "../../Assets/drum-game.png";
+import diceRoll from "../../Assets/dice-roll.png";
 
 const placeHolder = "https://placehold.co/600x400";
 
@@ -20,28 +26,28 @@ export const ProjectData = [
   {
     title: "Expense Tracker",
     description: "",
-    img: placeHolder,
+    img: expenseTracker,
     gitLink: "https://github.com/Harish1611/React-Expense-Tracker",
     demoLink: "https://react-expense-tracker-inky.vercel.app/",
   },
   {
     title: "Todo App",
     description: "",
-    img: placeHolder,
+    img: todoApp,
     gitLink: "https://github.com/Harish1611/Todo-App",
     demoLink: "https://todo-app-blush-three.vercel.app/",
   },
   {
-    title: "Bloosam - A Dating Website UI",
+    title: "Blossom - A Dating Website UI",
     description: "",
-    img: placeHolder,
+    img: blossom,
     gitLink: "https://github.com/Harish1611/Blossom",
     demoLink: "https://harish1611.github.io/Blossom/",
   },
   {
-    title: "Personal Blog UI",
+    title: "Personal Website UI",
     description: "",
-    img: placeHolder,
+    img: PersonalWebUI,
     gitLink: "https://github.com/Harish1611/Personal-Blog-UI/tree/master",
     demoLink: "https://harish1611.github.io/Personal-Blog-UI/",
   },
@@ -49,14 +55,14 @@ export const ProjectData = [
   {
     title: "Drum Game",
     description: "",
-    img: placeHolder,
+    img: drumGame,
     gitLink: "https://github.com/Harish1611/Drum-Game",
     demoLink: "https://harish1611.github.io/Drum-Game/",
   },
   {
     title: "Dice Roll Game",
     description: "",
-    img: placeHolder,
+    img: diceRoll,
     gitLink: "https://github.com/Harish1611/Dice-Roll-Game",
     demoLink: "https://harish1611.github.io/Dice-Roll-Game/",
   },
