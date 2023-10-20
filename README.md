@@ -5,7 +5,7 @@
 </h2>
 
 <br/>
-
+![Demo Pic](src/Assets/readmeDemo.png)
 ## About Project
 
 It is a Protifolio Website developed using following tools & technologies<br/>
