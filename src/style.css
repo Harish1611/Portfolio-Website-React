@@ -1342,6 +1342,7 @@ buttons {
 @media (min-width: 768px) and (max-width: 1023px) {
   .vertical-timeline-element-date {
     color: white;
+    float: right !important;
   }
 
   .about-icon {
