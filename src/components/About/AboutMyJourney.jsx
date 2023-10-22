@@ -3,10 +3,13 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import HeadingDivider from "../UI-Elements/HeadingDivider";
 
 const AboutMyJourney = () => {
   return (
     <div className="aboutMyStory">
+      <h2 className="heading-mystory"> My Journey </h2>
+      <HeadingDivider color={"white"} />
       <VerticalTimeline
         lineColor="#3e1454"
         style={{ backgroundColor: "#f0f0f0" }}
