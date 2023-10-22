@@ -722,6 +722,11 @@ button:focus {
     font-size: 1rem !important;
     text-align: left !important;
   }
+
+  .mystory-image {
+    padding-top: 20px !important;
+    padding-left: 10px !important;
+  }
 }
 .tech-icons {
   font-size: 4.5em !important;
@@ -1136,7 +1141,7 @@ buttons {
   .img-about {
     margin-top: 0px !important;
     margin-left: -50px !important;
-    height: 240px !important;
+    height: 320px !important;
   }
 }
 
