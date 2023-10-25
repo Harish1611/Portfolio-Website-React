@@ -1,3 +1,4 @@
+import bigSale from "../../Assets/BigSale.png";
 import portfolio from "../../Assets/portfolio.png";
 import expenseTracker from "../../Assets/expense-tracker.png";
 import blossom from "../../Assets/blossom.png";
@@ -12,7 +13,7 @@ export const ProjectData = [
   {
     title: "Big Sale - eCommerce Website",
     description: "",
-    img: placeHolder,
+    img: bigSale,
     gitLink: "https://github.com/Harish1611/Big-Sale-eCommerce-Frontend",
     demoLink: "",
   },
