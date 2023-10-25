@@ -15,7 +15,7 @@ export const ProjectData = [
     description: "",
     img: bigSale,
     gitLink: "https://github.com/Harish1611/Big-Sale-eCommerce-Frontend",
-    demoLink: "",
+    demoLink: "https://big-sale-e-commerce-frontend.vercel.app/",
   },
   {
     title: "My Protfolio - React",
