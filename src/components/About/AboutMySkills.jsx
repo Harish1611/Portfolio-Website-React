@@ -1,7 +1,8 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import HeadingDivider from "../UI-Elements/HeadingDivider";
 
 import {
   DiJavascript1,
@@ -53,15 +54,21 @@ const AboutMySkills = () => {
 
   return (
     <Container>
-      <AliceCarousel
-        mouseTracking
-        items={items}
-        disableButtonsControls
-        responsive={responsive}
-        autoPlay
-        autoPlayInterval={2000}
-        infinite
-      />
+      <Row style={{ paddingTop: "80px" }}>
+        <h2 className="heading-mystory"> My Skills </h2>
+        <HeadingDivider color={"white"} />
+        <Col style={{ paddingTop: "60px" }}>
+          <AliceCarousel
+            mouseTracking
+            items={items}
+            disableButtonsControls
+            responsive={responsive}
+            autoPlay
+            autoPlayInterval={2000}
+            infinite
+          />
+        </Col>
+      </Row>
     </Container>
   );
 };
