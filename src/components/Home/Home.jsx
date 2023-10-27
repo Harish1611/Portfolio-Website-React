@@ -8,15 +8,17 @@ const Home = () => {
   const [heroRef, heroInView] = useInView({
     triggerOnce: true,
   });
+
+  const [heroContentRef, heroContentInView] = useInView({
+    triggerOnce: true,
+  });
+
   const heroAnimation = useSpring({
     opacity: heroInView ? 1 : 0,
     transform: heroInView ? "translate3d(0, 0, 0)" : "translate3d(90%, 0, 0)",
     config: config.default,
   });
 
-  const [heroContentRef, heroContentInView] = useInView({
-    triggerOnce: true,
-  });
   const heroContent = useSpring({
     opacity: heroContentInView ? 1 : 0,
     transform: heroContentInView
@@ -25,6 +27,7 @@ const Home = () => {
 
     config: config.default,
   });
+
   return (
     <section>
       <Container fluid className="home-section" id="home">
