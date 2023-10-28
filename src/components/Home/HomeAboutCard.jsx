@@ -18,7 +18,6 @@ const HomeAboutCard = (props) => {
         <Card.Body>
           <Card.Title className="about-home-title">{props.title}</Card.Title>
           <HeadingDivider color={"white"} />
-
           <Card.Text
             style={{ textAlign: "justify" }}
             className="about-home-desc"
