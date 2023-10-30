@@ -18,15 +18,41 @@ It is a Protifolio Website developed using following tools & technologies<br/>
 - VsCode
 - Vercel
 
-## Getting Started
+## Prerequisites
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+Before running this project, make sure you have the following installed:
 
-## 🛠 Installation and Setup Instructions
+- Node.js: [Download and Install Node.js](https://nodejs.org/en/download "Node.js Download")
 
-1. Installation: `npm install`
+- git: [Download and Install git globally](https://git-scm.com/ "git Download")
 
-2. In the project directory, you can run: `npm start`
+## Installation
+
+Follow these steps to set up the application:
+
+1. Open Powershell/Terminal and Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/Harish1611/Portfolio-Website-React.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Portfolio-Website-React
+   ```
+
+3. Install the required dependencies:
+
+   ```bash
+   npm install or npm i
+   ```
+
+4. Run Project Locally:
+
+   ```bash
+   npm start
+   ```
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
