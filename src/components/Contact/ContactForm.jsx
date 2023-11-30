@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import emailjs from '@emailjs/browser';
-
+import ConfirmationPopup from "../UI-Elements/ConfirmationPopup";
 
 const ContactForm = () =>  {
 
@@ -12,6 +12,9 @@ const ContactForm = () =>  {
     from_phone: '',
     message:''
   });
+
+  const [showConfirmation, setShowConfirmation] = useState(false);
+
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -28,7 +31,7 @@ const ContactForm = () =>  {
     )
       .then((response) => {
         console.log('Email sent successfully:', response);
-
+        setShowConfirmation(true);
         emailjs.send(
           'service_r7fxnnj',
           'template_47751oi',
@@ -47,10 +50,14 @@ const ContactForm = () =>  {
         console.error('Email sending failed:', error);
       });
   };
- 
+
+  const closeConfirmation = () => {
+    setShowConfirmation(false);
+  };
 
 
     return (
+      <div>
       <Form onSubmit={contactFormHandler}>
         <Form.Group controlId="name" style={{ paddingTop: "20px" }}>
           <Form.Control
@@ -93,6 +100,15 @@ const ContactForm = () =>  {
           Submit
         </Button>
       </Form>
+
+       {/* ConfirmationPopup component */}
+       {showConfirmation && (
+        <ConfirmationPopup
+          message="Thank you for Submission!"
+          onClose={closeConfirmation}
+        />
+      )}
+      </div>
     );
   }
 

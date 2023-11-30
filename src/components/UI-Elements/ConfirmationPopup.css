@@ -1,0 +1,22 @@
+/* ConfirmationPopup.css */
+.confirmation-popup {
+    position: fixed;
+    top: 20%;
+    right: -100%; /* Start off-screen */
+    width: 300px;
+    background-color: #ffffff;
+    color: purple;
+    border: solid gray 1px;
+    border-radius: 4px;
+    padding: 5px 15px;
+    transition: right 0.5s ease-out;
+  }
+  
+  .confirmation-popup.visible {
+    right: 0; /* Slide in */
+  }
+  
+  .popup-content {
+    text-align: center;
+  }
+  
