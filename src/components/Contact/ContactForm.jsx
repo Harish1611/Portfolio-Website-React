@@ -4,6 +4,14 @@ import { Form, Button } from "react-bootstrap";
 import emailjs from '@emailjs/browser';
 import ConfirmationPopup from "../UI-Elements/ConfirmationPopup";
 
+
+const SERVICE_ID=process.env.REACT_APP_SERVICE_ID;
+const TEMPLATE_ID=process.env.REACT_APP_TEMPLATE_ID;
+const USER_ID=process.env.REACT_APP_USER_ID;
+
+
+
+
 const ContactForm = () =>  {
 
   const [formData, setFormData] = useState({
@@ -15,7 +23,6 @@ const ContactForm = () =>  {
 
   const [showConfirmation, setShowConfirmation] = useState(false);
 
-
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -24,10 +31,10 @@ const ContactForm = () =>  {
     e.preventDefault();
 
     emailjs.send(
-      'service_r7fxnnj',
-      'template_8lcdys7',
+      SERVICE_ID,
+      TEMPLATE_ID,
       formData,
-      '6bhdj5Qga9uIEwIaY'
+      USER_ID
     )
       .then((response) => {
         console.log('Email sent successfully:', response);
