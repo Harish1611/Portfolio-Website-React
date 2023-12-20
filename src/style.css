@@ -1381,3 +1381,13 @@ buttons {
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
 }
+
+
+/* Contact Form Toast */
+
+
+.Toastify__toast {
+
+  z-index: 200000 !important;
+
+}
