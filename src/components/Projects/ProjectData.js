@@ -6,6 +6,7 @@ import todoApp from "../../Assets/todo-app.png";
 import PersonalWebUI from "../../Assets/personal-web.png";
 import drumGame from "../../Assets/drum-game.png";
 import diceRoll from "../../Assets/dice-roll.png";
+import quicktodo from "../../Assets/quicktodo.png"
 
 const placeHolder = "https://placehold.co/600x400";
 
@@ -23,6 +24,13 @@ export const ProjectData = [
     img: portfolio,
     gitLink: "https://github.com/Harish1611/Portfolio-Website-React",
     demoLink: "https://portfolio-website-react-eta.vercel.app/",
+  },
+  {
+    title: "Quick Todo - React",
+    description: "",
+    img: quicktodo,
+    gitLink: "https://github.com/Harish1611/Quick-Todo",
+    demoLink: "https://quick-todo-one.vercel.app/",
   },
   {
     title: "Expense Tracker",
