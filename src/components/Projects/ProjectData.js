@@ -6,7 +6,8 @@ import todoApp from "../../Assets/todo-app.png";
 import PersonalWebUI from "../../Assets/personal-web.png";
 import drumGame from "../../Assets/drum-game.png";
 import diceRoll from "../../Assets/dice-roll.png";
-import quicktodo from "../../Assets/quicktodo.png"
+import quicktodo from "../../Assets/quicktodo.png";
+import pmms from "../../Assets/pmms.png";
 
 const placeHolder = "https://placehold.co/600x400";
 
@@ -17,6 +18,13 @@ export const ProjectData = [
     img: bigSale,
     gitLink: "https://github.com/Harish1611/Big-Sale-eCommerce-Frontend",
     demoLink: "https://big-sale-e-commerce-frontend.vercel.app/",
+  },
+  {
+    title: "PMM Systems - Pharma Web App",
+    description: "",
+    img: pmms,
+    gitLink: "https://github.com/Harish1611/Pharma-Medical-Management-System",
+    demoLink: "https://pharma-medical-management-system.vercel.app/",
   },
   {
     title: "My Protfolio - React",
