@@ -49,7 +49,7 @@ const Home = () => {
                   I'm
                   <strong className="main-name"> Harish Naidu</strong>
                 </h1>
-                <h2 className="heading-namesub">A Web Developer</h2>
+                <h2 className="heading-namesub">A FullStack Developer</h2>
                 <div style={{ padding: 50, textAlign: "left" }}></div>
               </animated.div>
             </Col>
